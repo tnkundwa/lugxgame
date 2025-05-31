@@ -8,44 +8,64 @@
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
-<body class="bg-[url('./banner-bg.jpeg')] ml-24 mt-16 mr-24">
+<body class="">
     <div>
-        <nav class="">
-            <div class="flex justify-between text-white">
-                <div class="">
-                    <img class="w-[180px] h-[70px]" src="./logo.png" alt="">
-                </div>
-                <div class="flex justify-between items-center">
-                    <div class="flex gap-20 mt-[20px]">
-                        <a href="" class="bg-blue-500 px-10 rounded-full shadow-inner ">Home</a>
-                        <a href="" class="hover:bg-blue-500 hover:rounded-full hover:px-10 hover:shadow-inner hover:whitespace-nowrap">Our Shop</a>
-                        <a href="" class="hover:bg-blue-500 hover:rounded-full hover:px-10 hover:shadow-inner hover:whitespace-nowrap">Product Details</a>
-                        <a href="" class="hover:bg-blue-500 hover:rounded-full hover:px-10 hover:shadow-inner hover:whitespace-nowrap">Contact Us</a>
+        <div class="bg-[url('./banner-bg.jpeg')] bg-cover bg-center h-[1000px] rounded-b-[250px]">
+            <nav class="ml-[100px] mr-[100px]">
+                <div class="flex justify-between text-white">
+                    <div class="mt-[44px]">
+                        <img class="w-[180px] h-[70px]" src="./logo.png" alt="">
                     </div>
-                    <button class="bg-red-500 rounded-full px-10 py-2 mt-[20px] ml-20">SIGN IN</button>
+                    <div class="flex justify-between items-center">
+                        <div class="flex gap-20 mt-[20px]">
+                            <a href="" class="bg-blue-500 px-10 rounded-full shadow-inner ">Home</a>
+                            <a href="" class="hover:bg-blue-500 hover:rounded-full hover:px-10 hover:shadow-inner hover:whitespace-nowrap">Our Shop</a>
+                            <a href="" class="hover:bg-blue-500 hover:rounded-full hover:px-10 hover:shadow-inner hover:whitespace-nowrap">Product Details</a>
+                            <a href="" class="hover:bg-blue-500 hover:rounded-full hover:px-10 hover:shadow-inner hover:whitespace-nowrap">Contact Us</a>
+                        </div>
+                        <button class="bg-red-500 rounded-full px-10 py-2 mt-[20px] ml-20">SIGN IN</button>
+                    </div>
                 </div>
-            </div>
-        </nav>
-        <div class="text-white flex justify-between mb-[100px]">
-            <div class="mt-[190px] w-[700px]">
-                <h2 class= "text-[22px] font-weight-extrabold">WELCOME TO LUGX</h2>
-                <h1 class= "text-[58px] font-weight-extrabold">BEST GAMING SITE EVER!</h1>
-                <img class="ml-[160px] mt-[-16px]" src="./caption-dec.png" alt="">
-                <p class="mt-16">LUGX Gaming is free Bootstrap 5 HTML CSS website template for your gaming websites. You <br>
-                    can download and use this layout for commercial purposes. Please tell your friends about <br>
-                    TemplateMo.
-                </p>
-                <div class="mt-[80px] flex gap-[50px] items-center">
-                    <p class="bg-white rounded-3xl px-[100px] py-2 text-black">Type something</p>
-                    <button class="bg-blue-500 rounded-full px-10 py-2 ml-[-100px]">SEARCH NOW</button>
+            </nav>
+            <div class="text-white flex justify-between mb-[100px] ml-[100px] mr-[100px]">
+                <div class="mt-[190px] w-[700px]">
+                    <h2 class= "text-[22px] font-weight-extrabold">WELCOME TO LUGX</h2>
+                    <h1 class= "text-[58px] font-weight-extrabold">BEST GAMING SITE EVER!</h1>
+                    <img class="ml-[160px] mt-[-16px]" src="./caption-dec.png" alt="">
+                    <p class="mt-16">LUGX Gaming is free Bootstrap 5 HTML CSS website template for your gaming websites. You <br>
+                        can download and use this layout for commercial purposes. Please tell your friends about <br>
+                        TemplateMo.
+                    </p>
+                    <div class="mt-[80px] flex gap-[50px] items-center">
+                        <p class="bg-white rounded-3xl px-[100px] py-2 text-black">Type something</p>
+                        <button class="bg-blue-500 rounded-full px-10 py-2 ml-[-100px]">SEARCH NOW</button>
+                    </div>
                 </div>
-            </div>
-            <div class="relative mt-[100px] bg-[url('./banner-image.jpeg')] w-[420px] h-[500px] bg-cover bg-center rounded-2xl">
-                <h1 class="absolute bottom-[-30px] left-[-30px] bg-red-500 rounded-full py-7 px-5 text-[32px] font-weight-extrabold">-40%</h1>
-                <h1 class="absolute right-[30px] top-[20px] bg-blue-500 rounded-3xl py-2 px-6 text-[28px] font-weight-extrabold">$22</h1>
+                <div class="relative mt-[100px] bg-[url('./banner-image.jpeg')] w-[420px] h-[500px] bg-cover bg-center rounded-2xl">
+                    <h1 class="absolute bottom-[-30px] left-[-30px] bg-red-500 rounded-full py-7 px-5 text-[32px] font-weight-extrabold">-40%</h1>
+                    <h1 class="absolute right-[30px] top-[20px] bg-blue-500 rounded-3xl py-2 px-6 text-[28px] font-weight-extrabold">$22</h1>
+                </div>
             </div>
         </div>
 
+        <div class="flex justify-between w-[1000px] ml-[170px] gap-10 mt-[-90px]">
+            <div class="bg-white rounded-2xl shadow-lg px-[90px] py-8">
+                <img class="bg-blue-500 rounded-full py-6 px-6 hover:bg-red-500 hover:cursor-pointer" src="./featured-01.png" alt="">
+                <h2 class="whitespace-nowrap">FREE STORAGE</h2>
+            </div>
+            <div class="bg-white rounded-2xl shadow-lg px-[90px] py-8 ">
+                <img class="bg-blue-500 rounded-full py-6 px-6 hover:bg-red-500 hover:cursor-pointer" src="./featured-02.png" alt="">
+                <h2 class="whitespace-nowrap">USER MORE</h2>
+            </div>
+            <div class="bg-white rounded-2xl shadow-lg px-[90px] py-8">
+                <img class="bg-blue-500 rounded-full py-6 px-6 hover:bg-red-500 hover:cursor-pointer" src="./featured-03.png" alt="">
+                <h2 class="whitespace-nowrap">REPLY READY</h2>
+            </div>
+            <div class="bg-white rounded-2xl shadow-lg px-[90px] py-8">
+                <img class="bg-blue-500 rounded-full py-8 px-8 hover:bg-red-500 hover:cursor-pointer" src="./featured-04.png" alt="">
+                <h2 class="whitespace-nowrap">EASY LAYOUT</h2>
+            </div>
+        </div>
     </div>
 
 </body>
