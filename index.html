@@ -10,7 +10,7 @@
 
 <body>
     <div>
-        <div class="bg-[url('./banner-bg.jpeg')] bg-cover bg-center h-[1000px] rounded-b-[250px]">
+        <div class="bg-[url('./banner-bg.jpeg')] bg-cover bg-center h-[1000px] rounded-b-[250px] max-sm:h-[1400px]">
             <nav class="px-[100px] fixed top-0 left-0 right-0 z-10 bg-blue-600 h-[100px] rounded-b-[50px]">
                 <div class="flex justify-between text-white">
                     <div class="mt-[44px]">
@@ -34,53 +34,60 @@
                 </div>
             </nav>
             <div class="text-white flex justify-between mb-[100px] ml-[100px] mr-[100px] max-sm:flex-col max-sm:items-center max-sm:text-center max-sm:text-[18px]">
-                <div class="mt-[190px] w-[700px]">
-                    <h2 class="text-[22px] font-extrabold">WELCOME TO LUGX</h2>
-                    <h1 class="text-[48px] font-extrabold whitespace-nowrap">BEST GAMING SITE EVER!</h1>
-                    <img class="ml-[130px] mt-[-14px]" src="./caption-dec.png" alt="">
-                    <p class="mt-16">LUGX Gaming is free Bootstrap 5 HTML CSS website template for your gaming websites.
+                <div class="mt-[190px] w-[700px] max-sm:flex-col">
+                    <h2 class="text-[22px] font-extrabold max-sm:text-[18px]">WELCOME TO LUGX</h2>
+                    <h1 class="text-[48px] font-extrabold whitespace-nowrap max-sm:whitespace-normal max-sm:text-[40px] max-sm:text-center"> <spam class="max-sm:block">BEST GAMING</spam> <spam class="max-sm:block">SITE EVER!</spam> </h1>
+                    <img class="ml-[130px] mt-[-14px] max-sm:ml-[280px] max-sm:mt-[-5px]" src="./caption-dec.png" alt="">
+                    <p class="mt-16 max-sm:text-sm max-sm:text-center"><span class="hidden sm:inline"> LUGX Gaming is free Bootstrap 5 HTML CSS website template for your gaming websites.
                         You <br>
                         can download and use this layout for commercial purposes. Please tell your friends about <br>
-                        TemplateMo.
+                        TemplateMo. </span>
+                        <span class="sm:hidden block leading-6">
+                            <span class="block">LUGX Gaming is free Bootstrap 5 HTML CSS website</span>
+                            <span class="block"> template for your gaming websites. You can</span>
+                            <span class="block">download and use this layout for commercial</span>
+                            <span class="block">purposes. Please tell your friends about</span>
+                            <span class="block">TemplateMo.</span>
+                        </span>
                     </p>
-                    <div class="mt-[80px] flex gap-[50px] items-center">
-                        <input class="bg-white rounded-3xl px-[100px] py-2 text-black pl-4"
+                    <div class="mt-[80px] flex gap-[50px] items-center max-sm:ml-[160px]">
+                        <input class="bg-white rounded-3xl px-[100px] py-2 text-black pl-4 max-sm:px-[50px] max-sm:py-3 max-sm:w-[270px]" type="text"
                             placeholder="Type something">
-                        <button class="bg-blue-500 rounded-full px-10 py-2 ml-[-100px]">SEARCH NOW</button>
+                        <button class="bg-blue-500 rounded-full px-10 py-2 ml-[-100px] max-sm:px-6 max-sm:py-3 max-sm:text-[18px]">SEARCH NOW</button>
                     </div>
                 </div>
                 <div
-                    class="relative mt-[100px] bg-[url('./banner-image.jpeg')] w-[420px] h-[500px] bg-cover bg-center rounded-2xl">
+                    class="relative mt-[100px] bg-[url('./banner-image.jpeg')] w-[420px] h-[500px] bg-cover bg-center rounded-2xl max-sm:h-[470px] max-sm:w-[365px]">
                     <h1
-                        class="absolute bottom-[-30px] left-[-30px] bg-red-500 rounded-full py-7 px-5 text-[32px] font-extrabold">
+                        class="absolute bottom-[-30px] left-[-30px] bg-red-500 rounded-full py-7 px-5 text-[32px] font-extrabold max-sm:text-[24px] max-sm:py-7 max-sm:px-4 max-sm:bottom-[20px] max-sm:left-[20px]">
                         -40%</h1>
                     <h1
-                        class="absolute right-[30px] top-[20px] bg-blue-500 rounded-3xl py-2 px-6 text-[28px] font-extrabold">
+                        class="absolute right-[30px] top-[20px] bg-blue-500 rounded-3xl py-2 px-6 text-[28px] font-extrabold max-sm:text-[22px] max-sm:py-1 max-sm:px-4">
                         $22</h1>
                 </div>
             </div>
         </div>
 
-        <div class="flex justify-between w-[1000px] ml-[170px] gap-10 mt-[-90px] max-sm:flex-col max-sm:items-center max-sm:ml-[20px] max-sm:w-[340px]">
-            <div class="bg-white rounded-2xl shadow-lg px-[90px] py-8">
-                <img class="bg-blue-500 rounded-full py-6 px-6 hover:bg-red-500 hover:cursor-pointer"
+        <div class="flex justify-between w-[1000px] ml-[170px] gap-10 mt-[-90px] max-sm:flex-col max-sm:ml-[20px]">
+            <div class="bg-white rounded-2xl shadow-lg px-[90px] py-8 max-sm:w-[360px]">
+                <img class="bg-blue-500 rounded-full py-6 px-6 hover:bg-red-500 hover:cursor-pointer max-sm:ml-[40px]"
                     src="./featured-01.png" alt="">
-                <h2 class="whitespace-nowrap">FREE STORAGE</h2>
+                <h2 class="whitespace-nowrap max-sm:ml-[35px]">FREE STORAGE</h2>
             </div>
-            <div class="bg-white rounded-2xl shadow-lg px-[90px] py-8 ">
-                <img class="bg-blue-500 rounded-full py-6 px-6 hover:bg-red-500 hover:cursor-pointer"
+            <div class="bg-white rounded-2xl shadow-lg px-[90px] py-8 max-sm:w-[360px]">
+                <img class="bg-blue-500 rounded-full py-6 px-6 hover:bg-red-500 hover:cursor-pointer max-sm:ml-[40px]"
                     src="./featured-02.png" alt="">
-                <h2 class="whitespace-nowrap">USER MORE</h2>
+                <h2 class="whitespace-nowrap max-sm:ml-[35px]">USER MORE</h2>
             </div>
-            <div class="bg-white rounded-2xl shadow-lg px-[90px] py-8">
-                <img class="bg-blue-500 rounded-full py-6 px-6 hover:bg-red-500 hover:cursor-pointer"
+            <div class="bg-white rounded-2xl shadow-lg px-[90px] py-8 max-sm:w-[360px]">
+                <img class="bg-blue-500 rounded-full py-6 px-6 hover:bg-red-500 hover:cursor-pointer max-sm:ml-[40px]"
                     src="./featured-03.png" alt="">
-                <h2 class="whitespace-nowrap">REPLY READY</h2>
+                <h2 class="whitespace-nowrap max-sm:ml-[35px]">REPLY READY</h2>
             </div>
-            <div class="bg-white rounded-2xl shadow-lg px-[90px] py-8">
-                <img class="bg-blue-500 rounded-full py-8 px-8 hover:bg-red-500 hover:cursor-pointer"
+            <div class="bg-white rounded-2xl shadow-lg px-[90px] py-8 max-sm:w-[360px]">
+                <img class="bg-blue-500 rounded-full py-8 px-8 hover:bg-red-500 hover:cursor-pointer max-sm:ml-[32px]"
                     src="./featured-04.png" alt="">
-                <h2 class="whitespace-nowrap">EASY LAYOUT</h2>
+                <h2 class="whitespace-nowrap max-sm:ml-[35px]">EASY LAYOUT</h2>
             </div>
         </div>
 
@@ -209,7 +216,7 @@
             </div>
         </div>
 
-        <div class="mt-[100px] ml-[100px] mr-[100px] mb-[300px] max-sm:mt-[1800px]">
+        <div class="mt-[100px] ml-[100px] mr-[100px] mb-[300px] max-sm:mt-[1600px]">
             <div>
                 <div class="block text-center">
                     <h2 class="text-[16px] font-bold text-red-400 max-sm:ml-[-20px]">CATEGORIES</h2>
@@ -241,11 +248,11 @@
         </div>
 
         <div>
-            <div class="relative ml-[100px] mr-[100px] mb-[300px] max-sm:flex-col">
+            <div class="relative ml-[100px] mr-[100px] mb-[300px]">
                 <div>
                     <img class="rounded-3xl absolute left-[30%] top-[-90px] max-sm:hidden" src="./cta-bg.jpeg" alt="">
                 </div>
-                <div class="bg-stone-100 rounded-3xl w-[500px] h-[500px] absolute left-[40px] top-[0px] max-sm:flex-col-1">
+                <div class="bg-stone-100 rounded-3xl w-[500px] h-[500px] absolute left-[40px] top-[0px] max-sm:relative max-sm:ml-[-150px]">
                     <div class="px-[50px] py-[50px]">
                         <h2 class="text-red-400 font-bold mb-[10px]">OUR SHOP</h2>
                         <h1 class="text-[35px] font-bold leading-tight">Go Pre-Order Buy <br> & Get Best <span
@@ -258,23 +265,23 @@
                     </div>
                 </div>
                 <div>
-                    <div class="bg-stone-100 rounded-3xl w-[500px] h-[400px] absolute right-[0px] top-[100px]">
-                        <div class="px-[50px] py-[60px]">
-                            <h2 class="text-red-400 font-bold mb-[10px]">NEWSLETTER</h2>
-                            <h1 class="text-[35px] font-bold leading-tight">Get Up To $100 Off <br> Just Buy <spam
-                                    class="text-blue-400"> Subscribe </spam> <br> Newsletter!</h1>
-                            <input class="rounded-full py-3 px-[50px] text-left pl-4" type="email"
-                                placeholder="Your email...">
-                            <button
-                                class="px-6 py-3 bg-red-400 hover:bg-blue-500 rounded-full text-white font-bold mt-[50px] ml-[-50px]">SUBSCRIBE
-                                NOW</button>
-                        </div>
+                <div class="bg-stone-100 rounded-3xl w-[500px] h-[400px] absolute right-[0px] top-[100px] max-sm:relative">
+                    <div class="px-[50px] py-[60px]">
+                        <h2 class="text-red-400 font-bold mb-[10px]">NEWSLETTER</h2>
+                        <h1 class="text-[35px] font-bold leading-tight">Get Up To $100 Off <br> Just Buy <spam
+                                class="text-blue-400"> Subscribe </spam> <br> Newsletter!</h1>
+                        <input class="rounded-full py-3 px-[50px] text-left pl-4" type="email"
+                            placeholder="Your email...">
+                        <button
+                            class="px-6 py-3 bg-red-400 hover:bg-blue-500 rounded-full text-white font-bold mt-[50px] ml-[-50px]">SUBSCRIBE
+                            NOW</button>
                     </div>
+                </div>
                 </div>
             </div>
         </div>
 
-        <div class="mt-[1000px]">
+        <div class="mt-[1000px] max-sm:mt-[200px]">
             <div class="bg-[url('./footer-bg.jpeg')] bg-cover bg-center h-[150px] w-full rounded-t-[250px]">
                 <div class="text-center text-white font-bold py-8">
                     <h1 class="">Copyright © 2048 LUGX Gaming Company. All rights reserved. Design: TemplateMo</h1>
